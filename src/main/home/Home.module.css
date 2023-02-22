@@ -1,0 +1,15 @@
+.home  {
+    /* height: 450px; */
+
+}
+
+.home img {
+    margin: 20px 60px 20px 60px;
+}
+
+.home_text {
+    margin: 20px 60px 20px 60px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
