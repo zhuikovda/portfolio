@@ -1,0 +1,25 @@
+.skills_container {
+   width: 100%;
+}
+
+.skills_box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.skills_title {
+    max-width: 100%;
+}
+
+.skills {
+    width: 280px;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+}

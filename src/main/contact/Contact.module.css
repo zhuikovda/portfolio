@@ -1,0 +1,117 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 25px 0 25px 0;
+    background-color: rgb(150, 105, 228);
+}
+
+.contact_title {
+    margin: 0 auto;
+    /* height: 25px; */
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    /* font-size: 16px; */
+    line-height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.contact_title span {
+    color: #ffb400;
+}
+
+.contant_form {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* column-gap: 10px; */
+    width: 100%;
+}
+
+.contant_form__contacts ul {
+    /* margin: 0 0px 0 40px; */
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    /* text-transform: uppercase; */
+    font-family: 'open sans';
+    font-weight: 500;
+    font-size: 1rem;
+    /* color: #ffb400; */
+    line-height: 1.2;
+    /* height: 25px; */
+}
+
+/* .contant_form__contacts ul li {
+    height: 50px;
+} */
+
+.contant_form__item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.social h6 {
+    margin: 0;
+}
+
+.item_icon {
+    height: 15px;
+    width: 15px;
+    background-color: antiquewhite;
+}
+
+.social_item ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px 0 10px 0;
+}
+
+.contact_form__inputs {
+    width: 75%;
+}
+
+.forms {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+.forms_input {
+    /* position: relative; */
+    margin-bottom: 30px;
+    width: 45%;
+}
+
+.forms_input input {
+    height: 46px;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 0;
+}
+
+.forms_textarea {
+    width: 100%;
+}
+
+.forms_textarea textarea {
+    width: 100%;
+    outline: none;
+    border: none;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0;
+}

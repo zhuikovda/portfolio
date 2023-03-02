@@ -1,0 +1,45 @@
+.portfolio {
+    flex-direction: column;
+    padding: 25px 0 25px 0;
+    background-color: rgb(105, 197, 228);
+} 
+
+.portfolio_title {
+    margin: 0 auto;
+    /* height: 25px; */
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    /* font-size: 16px; */
+
+    line-height: 50px;
+}
+
+.portfolio_title span {
+    color: #ffb400;
+}
+
+.portfolio_container {
+    width: 100%;
+}
+
+.portfolio_box {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 10px;
+    
+}
+
+.work {
+    width: 320px;
+}
+
+.img {
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+}

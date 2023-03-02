@@ -1,0 +1,32 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 25px 0 25px 0;
+    background-color: rgb(228, 224, 105);
+}
+
+.footer h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.footer ul {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0; 
+    column-gap: 35px;
+    row-gap: 10px;
+    /* text-align: center; */
+}
+.footer ul li{
+
+    height: 25px;
+    width: 25px;
+    background-color: antiquewhite;    
+}

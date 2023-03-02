@@ -11,7 +11,7 @@
 
 .container {
     margin: 0 auto;
-    width: 90%;
+    width: 80%;
     display: flex;
     justify-content: end;
     flex-wrap: wrap;
@@ -19,7 +19,7 @@
 
 .header h1 {
     position: absolute;
-    left: 20px;
+    left: 50px;
     margin: 16px 0 0 20px;
     color: #ffb400;
 }

@@ -1,0 +1,73 @@
+.about {
+    /* display: flex;
+    flex-direction: column; */
+    padding: 25px 0 25px 0;
+    background-color: rgb(123, 216, 95);
+}
+
+.about_title {
+    margin: 0 auto;
+    /* height: 25px; */
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    /* font-size: 16px; */
+    line-height: 50px;
+}
+
+.about_title span {
+    color: #ffb400;
+}
+
+.about_img {
+    height: 200px;
+    width: 150px;
+    margin: 20px 60px 20px 60px;
+    background-color: aqua;
+}
+
+.about_me {
+    margin: 20px 60px 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+}
+
+.about_me ul {
+    list-style-type: none;
+}
+
+.about_me ul li b {
+    margin-left: 10px;
+}
+
+.experEduc {
+    width: 50%;
+    /* colummn */
+}
+
+.experEduc img {
+    padding-right: 10px;
+    height: 25px;
+    width: 25px;
+}
+
+.experEduc_container {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+
+    /* margin: 0 10px 0 20px */
+    /* width: 50px; */
+}
+
+.skills {
+    display: flex;
+    justify-content: start;
+}
+
+.skills_box ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
