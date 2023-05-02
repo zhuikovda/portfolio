@@ -1,12 +1,6 @@
 .header {
-    /* display: flex;
-    justify-content: space-between; */
-    /* flex-wrap: wrap; */
     font-family: 'Poppins', sans-serif;
-    /* width: 100%; */
-    /* height: 100%; */
     background-color: rgb(149, 146, 140);
-    /* align-items: center; */
 }
 
 .container {
@@ -26,9 +20,11 @@
 
 .container ul {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     flex-wrap: wrap;
     margin-left: 110px;
 }
 
-
+@media screen and (max-width: 712px) {
+    
+}

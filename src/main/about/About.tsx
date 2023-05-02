@@ -44,17 +44,17 @@ export const About = () => {
                         <h2>EXPERIENCE</h2>
                         <ExperEduc
                             year={'2017-2019'}
-                            workPlace='Engineer - company'
+                            workPlace='Engineer-company'
                             text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. '
                         />
                         <ExperEduc
                             year={'2017-2019'}
-                            workPlace='Engineer - company'
+                            workPlace='Engineer-company'
                             text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
                         />
                         <ExperEduc
                             year={'2017-2019'}
-                            workPlace='Engineer - company'
+                            workPlace='Engineer-company'
                             text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
                         />
                     </div>
@@ -63,17 +63,17 @@ export const About = () => {
                         <h2>EDUCATION</h2>
                         <ExperEduc
                             year={'2017-2019'}
-                            workPlace='Engineer - company'
+                            workPlace='Engineer-company'
                             text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
                         />
                         <ExperEduc
                             year={'2017-2019'}
-                            workPlace='Engineer - company'
+                            workPlace='Engineer-company'
                             text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. '
                         />
                         <ExperEduc
                             year={'2017-2019'}
-                            workPlace='Engineer - company'
+                            workPlace='Engineer-company'
                             text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. '
                         />
                     </div>

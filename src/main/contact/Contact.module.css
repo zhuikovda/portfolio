@@ -25,7 +25,7 @@
 .contant_form {
     margin-top: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
     /* column-gap: 10px; */
@@ -75,6 +75,7 @@
 }
 
 .contact_form__inputs {
+    margin-left: 10px;
     width: 75%;
 }
 

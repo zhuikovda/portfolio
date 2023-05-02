@@ -1,5 +1,5 @@
 .skills_container {
-   width: 100%;
+    width: 100%;
 }
 
 .skills_box {
@@ -18,8 +18,26 @@
     width: 280px;
 }
 
+.skills p {
+    text-align: justify;
+}
+
 .icon {
     height: 50px;
     width: 50px;
     background-color: #fff;
+}
+
+@media screen and (max-width: 712px) {
+    .skills_box {
+        justify-content: center;
+    }
+
+    .skills {
+        width: 100%;
+    }
+
+    .skills_title {
+        text-align: center;
+    }
 }

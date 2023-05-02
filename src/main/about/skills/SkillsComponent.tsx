@@ -8,10 +8,10 @@ type SkillsComponentPropsType = {
 
 export const SkillsComponent: FC<SkillsComponentPropsType> = (props) => {
     return (
-        <>
+        <div>
             <div className={s.icon}></div>
             <h3>{props.title}</h3>
             <p>{props.text}</p>
-        </>
+        </div>
     );
 };

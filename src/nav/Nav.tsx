@@ -1,12 +1,14 @@
 import React from 'react';
 import style from './Nav.module.css'
+import {NavLink} from 'react-router-dom';
+
 
 export const Nav = () => {
     return (
         <nav className={style.header_nav}>
             <ul>
                 <li>
-                    <a href='#'>home</a>
+                    <NavLink to={'/home'}>home</NavLink>
                 </li>
                 <li>
                     <a href='#'>about</a>
