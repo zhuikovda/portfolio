@@ -14,5 +14,5 @@ export const MyWork: FC<MyWorkPorpsType> = (props) => {
             <h3>{props.title}</h3>
             <div>{props.description}</div>
         </div>
-    );
+    ); 
 };

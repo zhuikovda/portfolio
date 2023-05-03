@@ -7,24 +7,23 @@
     margin: 0 auto;
     width: 80%;
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.header h1 {
-    position: absolute;
-    left: 50px;
+.logo {
+    max-width: 49%;
     margin: 16px 0 0 20px;
     color: #ffb400;
 }
 
 .container ul {
     display: flex;
-    /* flex-direction: row; */
     flex-wrap: wrap;
-    margin-left: 110px;
 }
 
-@media screen and (max-width: 712px) {
-    
+@media screen and (max-width: 523px) {
+    .container ul {
+        display: block;
+    }
 }

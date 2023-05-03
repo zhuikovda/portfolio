@@ -48,7 +48,7 @@
 }
 
 .experEduc {
-    width: 49%;
+    width: 48%;
     /* colummn */
 }
 
@@ -65,35 +65,18 @@
 .experEduc_container {
     display: flex;
     justify-content: space-between;
-    column-gap: 10px;
     text-align: justify;
     flex-wrap: wrap;
-    /* margin: 0 10px 0 20px */
-    /* width: 50px; */
-}
-/* 
-.skills {
-    display: flex;
-    justify-content: start;
-  
 }
 
 .skills_box ul {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+}
 
-} */
-
-@media screen and (max-width: 624px) {
-
-    /* .experEduc_container {
-        
-        justify-content: center;
-    } */
-
+@media screen and (max-width: 712px) {
     .experEduc {
         width: 100%;
-        /* colummn */
     }
 }

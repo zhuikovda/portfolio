@@ -7,7 +7,6 @@
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row;
-    column-gap: 10px;
 }
 
 .skills_title {
@@ -15,7 +14,7 @@
 }
 
 .skills {
-    width: 280px;
+    width: 48%;
 }
 
 .skills p {
@@ -38,6 +37,14 @@
     }
 
     .skills_title {
+        text-align: center;
+    }
+
+    .icon {
+        margin: 0 auto;
+    }
+
+    .skills h3 {
         text-align: center;
     }
 }

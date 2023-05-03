@@ -24,7 +24,7 @@ export const Contact = () => {
                                 <h6 className={s.contant_form__item}>
                                     <span>Email</span>
                                     <i></i>
-                                    <span>zhuikovda@jmail.com</span>
+                                    <span>zhuikovda@gmail.com</span>
                                 </h6>
                             </li>
                             <li>
