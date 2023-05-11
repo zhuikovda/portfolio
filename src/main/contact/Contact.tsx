@@ -66,25 +66,27 @@ export const Contact = () => {
                     <div className={s.contact_form__inputs}>
                         <div>
                             <p>
-                                If you have any suggestion, project or even you want to say Hello..
-                                please fill out the form below and I will reply you shortly.
+                                If you have any suggestion, project or even you want to say Hello.. please fill out the
+                                form below and I will reply you shortly.
                             </p>
                         </div>
                         <form className={s.forms}>
                             <div className={s.forms_input}>
                                 <i></i>
-                                <input type='text' placeholder="  YOUR NAME"/>
+                                <input type='text' placeholder='  YOUR NAME' />
                             </div>
                             <div className={s.forms_input}>
                                 <i></i>
-                                <input type='text' placeholder="  YOUR EMAIL"/>
+                                <input type='text' placeholder='  YOUR EMAIL' />
                             </div>
                             <div className={s.forms_textarea}>
                                 <i></i>
-                                <textarea name='' id=''  rows={5} placeholder="  YOUR MESSAGE"></textarea>
+                                <textarea name='' id='' rows={5} placeholder='  YOUR MESSAGE'></textarea>
                             </div>
                         </form>
-                        <div><ButtonUniversal title={'send message'}/></div>
+                        <div>
+                            <ButtonUniversal title={'send message'} />
+                        </div>
                         <div></div>
                     </div>
                 </div>

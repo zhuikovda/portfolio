@@ -12,18 +12,22 @@
 }
 
 .logo {
-    max-width: 49%;
-    margin: 16px 0 0 20px;
+    margin: auto 0;
     color: #ffb400;
 }
 
 .container ul {
     display: flex;
     flex-wrap: wrap;
+    margin: 10px 0 10px 0;
 }
 
 @media screen and (max-width: 523px) {
     .container ul {
         display: block;
+    }
+
+    .logo {
+        margin: 10px 0 10px 0;
     }
 }
