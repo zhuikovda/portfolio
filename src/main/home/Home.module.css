@@ -1,17 +1,17 @@
 .home {
-    /* height: 400px; */
-    padding: 25px 0 25px 0;
-    background-color: rgb(240, 222, 187);
+    /* background-color: rgb(240, 222, 187); */
 }
-
-
 
 .home_text {
     text-align: center;
     margin: 20px 60px 20px 60px;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    color: #000000;
+    color: #eee;
+}
+
+.home_text span {
+    color: #ffb400;
 }
 
 .home_img {

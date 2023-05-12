@@ -3,10 +3,15 @@ import s from './About.module.css';
 import { ExperEduc } from './ExperEduc';
 import { url } from 'inspector';
 import { Skills } from './skills/Skills';
+import {BgType} from '../../App';
 
-export const About = () => {
+type AboutType={
+    style: BgType
+}
+
+export const About = (props: AboutType) => {
     return (
-        <div className={s.about}>
+        <div className={s.about} style={props.style}>
             <div className='container'>
                 <h1 className={s.about_title}>
                     about

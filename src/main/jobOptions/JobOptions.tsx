@@ -1,10 +1,15 @@
 import React from 'react';
 import { ButtonUniversal } from '../../ButtonUniversal';
 import s from './JobOptions.module.css';
+import {BgType} from '../../App';
 
-export const JobOptions = () => {
+type JobOptionsHome={
+    style: BgType
+}
+
+export const JobOptions = (props: JobOptionsHome) => {
     return (
-        <div className={s.jo_container}>
+        <div className={s.jo_container} style={props.style}>
             <div className='container'>
                 <div className={s.jo_text}>
                     <p>I will consider options for remote work.</p>

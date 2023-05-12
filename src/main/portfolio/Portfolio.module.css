@@ -1,7 +1,7 @@
 .portfolio {
     flex-direction: column;
     padding: 25px 0 25px 0;
-    background-color: rgb(105, 197, 228);
+    /* background-color: rgb(105, 197, 228); */
 }
 
 .portfolio_title {
@@ -37,9 +37,11 @@
 
 .img {
     margin: 0 auto;
-    height: 100px;
-    width: 100px;
-    background-color: aliceblue;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    /* width: 250px; */
 }
 
 @media screen and (max-width: 712px) {

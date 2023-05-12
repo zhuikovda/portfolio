@@ -1,10 +1,15 @@
 import React from 'react';
 import { ButtonUniversal } from '../../ButtonUniversal';
 import s from './Contact.module.css';
+import { BgType } from '../../App';
 
-export const Contact = () => {
+type ContactType = {
+    style: BgType;
+};
+
+export const Contact = (props: ContactType) => {
     return (
-        <div className={s.contact}>
+        <div className={s.contact} style={props.style}>
             <div className='container'>
                 <h1 className={s.contact_title}>
                     get

@@ -3,7 +3,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     padding: 25px 0 25px 0;
-    background-color: rgb(228, 224, 105);
+    /* background-color: rgb(228, 224, 105); */
 }
 
 .footer h2 {

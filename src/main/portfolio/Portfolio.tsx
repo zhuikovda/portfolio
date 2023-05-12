@@ -1,10 +1,30 @@
 import React from 'react';
 import { MyWork } from './MyWork';
 import s from './Portfolio.module.css';
+import counterImg from '../../assets/img/counter.jpg';
+import socialNetworkImg from '../../assets/img/socialNetwork.jpg';
+import todolistImg from '../../assets/img/todo.jpg';
+import { BgType } from '../../App';
 
-export const Portfolio = () => {
+type PortfolioType = {
+    style: BgType;
+};
+
+export const Portfolio = (props: PortfolioType) => {
+    const counter = {
+        backgroundImage: `url(${counterImg})`
+    };
+
+    const socialNetwork = {
+        backgroundImage: `url(${socialNetworkImg})`
+    };
+
+    const todolist = {
+        backgroundImage: `url(${todolistImg})`
+    };
+
     return (
-        <div className={s.portfolio}>
+        <div className={s.portfolio} style={props.style}>
             <div className='container'>
                 <h1 className={s.portfolio_title}>
                     my
@@ -15,13 +35,31 @@ export const Portfolio = () => {
                 <div className={s.portfolio_container}>
                     <div className={s.portfolio_box}>
                         <div className={s.work}>
-                            <MyWork img={'url'} title={'Work 1'} description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '} />
+                            <MyWork
+                                style={counter}
+                                title={'Counter'}
+                                description={
+                                    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
+                                }
+                            />
                         </div>
                         <div className={s.work}>
-                            <MyWork img={'url'} title={'Work 2'} description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '} />
+                            <MyWork
+                                style={socialNetwork}
+                                title={'Social Network'}
+                                description={
+                                    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
+                                }
+                            />
                         </div>
                         <div className={s.work}>
-                            <MyWork img={'url'} title={'Work 3'} description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '} />
+                            <MyWork
+                                style={todolist}
+                                title={'Todolist'}
+                                description={
+                                    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
+                                }
+                            />
                         </div>
                     </div>
                 </div>

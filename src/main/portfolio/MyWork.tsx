@@ -1,18 +1,24 @@
 import React, { FC } from 'react';
-import s from './Portfolio.module.css'
+import s from './Portfolio.module.css';
 
 type MyWorkPorpsType = {
-    img: string;
+    style: StyleType;
     title: string;
     description: string;
+};
+
+type StyleType = {
+    backgroundImage: string;
 };
 
 export const MyWork: FC<MyWorkPorpsType> = (props) => {
     return (
         <div>
-            <div className={s.img}>{props.img}</div>
+            <a href='#'>
+                <div className={s.img} style={props.style}></div>
+            </a>
             <h3>{props.title}</h3>
             <div>{props.description}</div>
         </div>
-    ); 
+    );
 };

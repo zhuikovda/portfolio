@@ -6,7 +6,33 @@ import { Main } from './main/Main';
 import { Footer } from './footer/Footer';
 import { Route, Routes } from 'react-router-dom';
 
+export type BgType = {
+    background: string;
+    backgroundImage: string;
+    backgroundPositionX: string;
+    backgroundPositionY: string;
+    backgroundSize: string;
+    backgroundRepeat: string;
+    backgroundAttachment: string;
+    backgroundOrigin: string;
+    backgroundClip: string;
+    backgroundColor: string;
+};
+
 function App() {
+    const bg = {
+        background: '#222',
+        backgroundImage: 'initial',
+        backgroundPositionX: 'initial',
+        backgroundPositionY: 'initial',
+        backgroundSize: 'initial',
+        backgroundRepeat: 'repeat-x' + 'repeat-y',
+        backgroundAttachment: 'initial',
+        backgroundOrigin: 'initial',
+        backgroundClip: 'initial',
+        backgroundColor: 'rgb(34, 34, 34)'
+    };
+
     return (
         <div>
             {/* <Routes>
@@ -14,9 +40,9 @@ function App() {
                 <Route path={'/main'} element={<Main />} />
                 <Route path={'/footer'} element={<Footer />} />
             </Routes> */}
-            <Header />
-            <Main />
-            <Footer />
+            <Header style={bg} />
+            <Main style={bg} />
+            <Footer style={bg} />
         </div>
     );
 }
