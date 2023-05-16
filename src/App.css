@@ -9,6 +9,7 @@
     justify-content: center;
     flex-wrap: wrap;
     /* border: 1px solid black; */
+    color: #eee;
 }
 
 .App-logo {

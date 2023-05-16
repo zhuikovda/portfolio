@@ -11,11 +11,6 @@
     flex-wrap: wrap;
 }
 
-.logo {
-    margin: auto 0;
-    color: #ffb400;
-}
-
 .container ul {
     display: flex;
     flex-wrap: wrap;

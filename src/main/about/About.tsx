@@ -3,11 +3,11 @@ import s from './About.module.css';
 import { ExperEduc } from './ExperEduc';
 import { url } from 'inspector';
 import { Skills } from './skills/Skills';
-import {BgType} from '../../App';
+import { BgType } from '../../App';
 
-type AboutType={
-    style: BgType
-}
+type AboutType = {
+    style: BgType;
+};
 
 export const About = (props: AboutType) => {
     return (

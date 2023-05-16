@@ -1,17 +1,18 @@
-import React, {FC} from 'react';
+import React, { FC } from 'react';
 import style from './Header.module.css';
 import { Nav } from '../nav/Nav';
-import {BgType} from '../App';
+import { BgType } from '../App';
+import { LogoESD } from './LogoESD';
 
 type HeaderType = {
-    style: BgType
-}
+    style: BgType;
+};
 
 const Header: FC<HeaderType> = (props) => {
     return (
         <header className={style.header} style={props.style}>
             <div className={style.container}>
-                <h1 className={style.logo}>ESD</h1>
+                <LogoESD />
                 <Nav />
             </div>
         </header>
