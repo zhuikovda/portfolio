@@ -9,22 +9,8 @@
     flex-direction: row;
 }
 
-.skills_title {
-    max-width: 100%;
-}
-
 .skills {
     width: 48%;
-}
-
-.skills p {
-    text-align: justify;
-}
-
-.icon {
-    height: 50px;
-    width: 50px;
-    background-color: #fff;
 }
 
 @media screen and (max-width: 712px) {
@@ -34,17 +20,5 @@
 
     .skills {
         width: 100%;
-    }
-
-    .skills_title {
-        text-align: center;
-    }
-
-    .icon {
-        margin: 0 auto;
-    }
-
-    .skills h3 {
-        text-align: center;
     }
 }

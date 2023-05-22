@@ -11,36 +11,16 @@ export const Skills = () => {
 
             <div className={s.skills_box}>
                 <div className={s.skills}>
-                    <SkillsComponent                    
-                        title={'HTML'}
-                        text={
-                            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-                        }
-                    />
+                    <SkillsComponent title={'HTML'} percent={'60%'} />
                 </div>
                 <div className={s.skills}>
-                    <SkillsComponent
-                        title={'JAVASCRIPT'}
-                        text={
-                            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-                        }
-                    />
+                    <SkillsComponent title={'JAVASCRIPT'} percent={'30%'} />
                 </div>
                 <div className={s.skills}>
-                    <SkillsComponent
-                        title={'CSS'}
-                        text={
-                            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-                        }
-                    />
+                    <SkillsComponent title={'CSS'} percent={'80%'} />
                 </div>
                 <div className={s.skills}>
-                    <SkillsComponent
-                        title={'REACT'}
-                        text={
-                            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-                        }
-                    />
+                    <SkillsComponent title={'REACT'} percent={'50%'} />
                 </div>
             </div>
         </div>

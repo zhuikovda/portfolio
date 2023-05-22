@@ -23,11 +23,11 @@ const Logo_E = styled.div`
 const Logo_ESD = styled.div`
     font-size: 10px;
     text-align: center;
-    height: 12px;
+    line-height: 10px;
     width: 75px;
     position: relative;
-    top: -43px;
-    left: 0px;
+    top: -42px;
+    left: 1px;
     z-index: 1;
     background: #222;
     background-image: initial;
