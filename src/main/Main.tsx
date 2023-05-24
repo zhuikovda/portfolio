@@ -13,12 +13,12 @@ type MainType={
 
 export const Main: FC<MainType> = (props) => {
     return (
-        <main className={style.main}>
-            <Home style={props.style}/>
-            <About style={props.style}/>
-            <Portfolio style={props.style}/>
-            <JobOptions style={props.style}/>
-            <Contact style={props.style}/> 
+        <main className={style.main} style={props.style}>
+            <Home />
+            <About />
+            <Portfolio />
+            {/* <JobOptions style={props.style}/> */}
+            <Contact /> 
         </main>
     );
 };

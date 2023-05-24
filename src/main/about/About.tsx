@@ -4,22 +4,21 @@ import { ExperEduc } from './ExperEduc';
 import { url } from 'inspector';
 import { Skills } from './skills/Skills';
 import { BgType } from '../../App';
+import ava from '../../assets/img/ava.jpg';
 
-type AboutType = {
-    style: BgType;
-};
-
-export const About = (props: AboutType) => {
+export const About = () => {
     return (
-        <div className={s.about} style={props.style}>
+        <div className={s.about}>
             <div className='container'>
                 <h1 className={s.about_title}>
                     about
                     <span> me</span>
                 </h1>
             </div>
-            <div className='container'>
-                <div className={s.about_img}>my foto</div>
+            <div className={s.container}>
+                <div className={s.about_img}>
+                    <div className={s.img}><img  src={ava} alt='' /></div>
+                </div>
                 <div className={s.about_me}>
                     <ul>
                         <li>

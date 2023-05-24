@@ -5,12 +5,9 @@ import counterImg from '../../assets/img/counter.jpg';
 import socialNetworkImg from '../../assets/img/socialNetwork.jpg';
 import todolistImg from '../../assets/img/todo.jpg';
 import { BgType } from '../../App';
+import { JobOptions } from '../jobOptions/JobOptions';
 
-type PortfolioType = {
-    style: BgType;
-};
-
-export const Portfolio = (props: PortfolioType) => {
+export const Portfolio = () => {
     const counter = {
         backgroundImage: `url(${counterImg})`
     };
@@ -24,14 +21,13 @@ export const Portfolio = (props: PortfolioType) => {
     };
 
     return (
-        <div className={s.portfolio} style={props.style}>
+        <div className={s.portfolio}>
             <div className='container'>
                 <h1 className={s.portfolio_title}>
                     my
                     <span> portfolio</span>
                 </h1>
-            </div>
-            <div className='container'>
+
                 <div className={s.portfolio_container}>
                     <div className={s.portfolio_box}>
                         <div className={s.work}>
@@ -63,6 +59,7 @@ export const Portfolio = (props: PortfolioType) => {
                         </div>
                     </div>
                 </div>
+                <JobOptions />
             </div>
         </div>
     );

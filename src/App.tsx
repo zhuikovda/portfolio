@@ -3,8 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './header/Header';
 import { Main } from './main/Main';
-import { Footer } from './footer/Footer';
-import { Route, Routes } from 'react-router-dom';
 
 export type BgType = {
     background: string;
@@ -42,7 +40,7 @@ function App() {
             </Routes> */}
             <Header style={bg} />
             <Main style={bg} />
-            <Footer style={bg} />
+            {/* <Footer style={bg} /> */}
         </div>
     );
 }

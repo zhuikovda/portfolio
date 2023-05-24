@@ -1,9 +1,12 @@
 .main {
+    padding-top: 80px;
     font-family: 'Poppins', sans-serif;
     width: 100%;
     align-items: center;
 }
 
-/* .main :nth-child(even) {
-    background-color: rgb(65, 148, 148);
-} */
+@media screen and (max-width: 523px) {
+    .main {
+        padding-top: 120px;
+    }
+}

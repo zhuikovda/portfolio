@@ -15,6 +15,7 @@ export const ButtonUniversal: FC<ButtonUniversalPropstype> = (props) => {
 
 const Button = styled.button`
     cursor: pointer;
+    margin-top: 10px;
     box-shadow: none !important;
     border-radius: 26px;
     font-weight: 500;
