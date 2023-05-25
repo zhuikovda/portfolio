@@ -3,7 +3,6 @@
     flex-direction: column;
     flex-wrap: wrap;
     padding: 25px 0 25px 0;
-    /* background-color: rgb(228, 224, 105); */
 }
 
 .footer h2 {
@@ -13,7 +12,6 @@
 }
 
 .footer ul {
-    /* width: 30%; */
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -22,8 +20,6 @@
     text-decoration: none;
     padding: 0;
     column-gap: 15px;
-    /* row-gap: 10px; */
-    /* text-align: center; */
 }
 .footer ul li {
     height: 25px;

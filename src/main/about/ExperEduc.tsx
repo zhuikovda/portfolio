@@ -1,9 +1,6 @@
 import React, { FC } from 'react';
-import calendar from '../../calendar.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
-
-import s from './ExperEduc.module.css';
 
 type ExperEducPropsType = {
     // title: string

@@ -1,7 +1,6 @@
 import React from 'react';
 import { ButtonUniversal } from '../../ButtonUniversal';
-import s from './Contact.module.css';
-import { BgType } from '../../App';
+import s from './Contact.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookSquare, faInstagram, faLinkedin, faTelegram, faVk } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
@@ -16,7 +15,7 @@ export const Contact = () => {
                     <span> in touch</span>
                 </h1>
                 <div className={s.contant_form}>
-                    <div className={s.contant_form__contacts}>
+                    <div>
                         <ul>
                             <li>
                                 <h6 className={s.contant_form__item}>
@@ -51,7 +50,7 @@ export const Contact = () => {
                         </ul>
                         <div className={s.social}>
                             <h6>Social Profiles</h6>
-                            <div className={s.social_item}>
+                            <div>
                                 <ul>
                                     <li>
                                         <a href=''>

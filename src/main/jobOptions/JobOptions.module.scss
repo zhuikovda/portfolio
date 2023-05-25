@@ -1,0 +1,22 @@
+@import '../../common/sass/mixins.sass';
+@import '../../common/sass/variables.sass';
+
+.jo_container {
+    width: 100%;
+    flex-direction: column;
+    padding: 25px 0 25px 0;
+    .jo_text {
+        width: 100%;
+        text-align: center;
+        @include text ($fontFamilyPoppins, 32px, 700);
+        // font-family: 'Poppins', sans-serif;
+        // font-size: 32px;
+        // font-weight: 700;
+        opacity: 0.5;
+    }
+    .jo_button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

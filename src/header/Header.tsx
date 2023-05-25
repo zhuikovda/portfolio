@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import style from './Header.module.css';
+import style from './Header.module.scss';
 import { Nav } from '../nav/Nav';
 import { BgType } from '../App';
 import { LogoESD } from './LogoESD';

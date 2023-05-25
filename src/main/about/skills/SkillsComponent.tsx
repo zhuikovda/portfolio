@@ -1,5 +1,4 @@
 import React, { FC } from 'react';
-import s from './Skills.module.css';
 import { styled } from 'styled-components';
 
 type SkillsComponentPropsType = {

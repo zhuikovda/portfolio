@@ -1,10 +1,9 @@
 import React from 'react';
 import { MyWork } from './MyWork';
-import s from './Portfolio.module.css';
+import s from './Portfolio.module.scss';
 import counterImg from '../../assets/img/counter.jpg';
 import socialNetworkImg from '../../assets/img/socialNetwork.jpg';
 import todolistImg from '../../assets/img/todo.jpg';
-import { BgType } from '../../App';
 import { JobOptions } from '../jobOptions/JobOptions';
 
 export const Portfolio = () => {

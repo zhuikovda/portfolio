@@ -1,0 +1,32 @@
+@import url('../common/sass/variables.sass');
+
+.header {
+    position: fixed;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    height: 80px;
+    z-index: 100;
+    .container {
+        margin: 0 auto;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 10px 0 10px 0;
+            @media screen and (max-width: 523px) {
+                display: block;
+            }
+        }
+        @media screen and (max-width: 523px) {
+            .logo {
+                margin: 10px 0 10px 0;
+            }
+        }
+    }
+    @media screen and (max-width: 523px) {
+        height: 130px;
+    }
+}

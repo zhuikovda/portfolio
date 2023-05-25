@@ -1,9 +1,7 @@
 import React from 'react';
-import s from './About.module.css';
+import s from './About.module.scss';
 import { ExperEduc } from './ExperEduc';
-import { url } from 'inspector';
 import { Skills } from './skills/Skills';
-import { BgType } from '../../App';
 import ava from '../../assets/img/ava.jpg';
 
 export const About = () => {
@@ -17,7 +15,7 @@ export const About = () => {
             </div>
             <div className={s.container}>
                 <div className={s.about_img}>
-                    <div className={s.img}><img  src={ava} alt='' /></div>
+                    <img  src={ava} alt='' />
                 </div>
                 <div className={s.about_me}>
                     <ul>

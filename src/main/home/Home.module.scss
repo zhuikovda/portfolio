@@ -1,0 +1,45 @@
+@import '../../common/sass/variables.sass';
+
+.home {
+    .container {
+        min-height: 100vh;
+        align-items: center;
+        margin: 0 auto;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        color: #343131;
+        column-gap: 30px;
+        .home_img {
+            img {
+                height: 350px;
+                max-width: 440px;
+                // background-color: aqua;
+                @media screen and (max-width: 1165px) {
+                    height: 250px;
+                    max-width: 340px;
+                }
+            }
+        }
+        .home_text {
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            font-size: 26px;
+            color: $textColor;
+            @media screen and (max-width: 1165px) {
+                font-size: 20px;
+            }
+            // width: 50%;
+            h1 {
+                font-weight: 700;
+                span {
+                    color: $mainColor;
+                }
+            }
+            h3 {
+                font-weight: normal;
+            }
+        }
+    }
+}
